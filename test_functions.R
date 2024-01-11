@@ -72,3 +72,9 @@ F4 <- function(faasr) {
   faasr_put_file(faasr, "S3_A", "local", "output.csv", "folder", args$output)
   faasr_log(faasr, "User function F4 finished")
 }	
+
+
+F5 <- function(faasr){
+  print("Test")
+  cat("test")
+}
