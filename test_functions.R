@@ -1,5 +1,8 @@
 #library("FaaSr")
-        
+
+TestF <- function(faasr) {
+} 
+
 F1 <- function(faasr) {
   # print("Hello from inside function F1")
   args <- faasr_get_user_function_args(faasr)
